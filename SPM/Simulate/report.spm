@@ -1,5 +1,5 @@
 # The reports/outputs
-
+{
 @report sim_sum_02_obs
 type simulated_observation
 observation sum_02_obs
@@ -27,7 +27,7 @@ observation sum_11_obs
 @report sim_sum_12_obs
 type simulated_observation
 observation sum_12_obs
-
+}
 ## Autumn lognormal
 @report sim_aut_03_obs
 type simulated_observation
@@ -36,7 +36,7 @@ observation aut_03_obs
 @report sim_aut_04_obs
 type simulated_observation
 observation aut_04_obs
-
+{
 @report sim_aut_05_obs
 type simulated_observation
 observation aut_05_obs
@@ -130,7 +130,7 @@ observation win_10_obs
 @report sim_win_11_obs
 type simulated_observation
 observation win_11_obs
-
+}
 
 @report obj
 type objective_function

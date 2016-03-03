@@ -1,0 +1,110 @@
+SPM (Spatial Population Model)
+Call: spm -s 1 -i params.out 
+Date: Fri Mar 04 12:45:09 2016
+v1.1-2015-11-01 (rev. 1266). Copyright (c) 2008-2015, NIWA
+User name: marshc
+Machine name: NIWA-1007004 (Windows_NT, PID=11280)
+
+#[sim_aut_03_obs]
+#report.type: simulated_observation
+#observation.label: aut_03_obs
+@observation aut_03_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2003 
+obs r11-c16 1 
+obs r12-c16 1 
+obs r12-c17 1 
+obs r12-c18 1 
+obs r13-c17 1 
+obs r13-c18 1 
+obs r14-c15 1 
+obs r14-c16 1 
+obs r15-c14 1 
+obs r15-c15 1 
+obs r18-c2 1 
+obs r19-c2 1 
+obs r19-c3 1 
+obs r20-c2 1 
+obs r20-c3 1 
+obs r21-c2 1 
+obs r22-c3 1 
+obs r23-c3 1 
+error_value r11-c16 0.91347143999855196 
+error_value r12-c16 1.7321199501600999 
+error_value r12-c17 0.86881100652187604 
+error_value r12-c18 1.0622514066727999 
+error_value r13-c17 2.0080590319084499 
+error_value r13-c18 0.82261006635046496 
+error_value r14-c15 0.77113637011779801 
+error_value r14-c16 1.02526678464395 
+error_value r15-c14 0.20000000000000001 
+error_value r15-c15 0.20000000000000001 
+error_value r18-c2 4.7959474261050499 
+error_value r19-c2 1.6990592719111399 
+error_value r19-c3 2.2794431716328898 
+error_value r20-c2 2.7018380081762698 
+error_value r20-c3 1.5645118324453899 
+error_value r21-c2 2.88530343893563 
+error_value r22-c3 1.41426040508704 
+error_value r23-c3 0.90001166160593105 
+#end
+
+#[sim_aut_04_obs]
+#report.type: simulated_observation
+#observation.label: aut_04_obs
+@observation aut_04_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2004 
+obs r11-c10 1 
+obs r12-c10 1 
+obs r12-c13 1 
+obs r12-c16 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r14-c15 1 
+obs r14-c16 1 
+obs r15-c15 1 
+obs r16-c13 1 
+obs r19-c1 1 
+obs r19-c2 1 
+obs r20-c1 1 
+obs r20-c2 1 
+obs r20-c3 1 
+obs r21-c2 1 
+obs r22-c2 1 
+obs r23-c2 1 
+obs r23-c3 1 
+error_value r11-c10 0.70667325827990402 
+error_value r12-c10 1.02048027424312 
+error_value r12-c13 0.20000000000000001 
+error_value r12-c16 1.7324180972200101 
+error_value r13-c15 1.6150131681047799 
+error_value r13-c16 1.7324569180764999 
+error_value r14-c15 1.2260217067741499 
+error_value r14-c16 0.87253992157294502 
+error_value r15-c15 1.3674313663556401 
+error_value r16-c13 1.4147760670710701 
+error_value r19-c1 5.2916248574602101 
+error_value r19-c2 3.0474846573078098 
+error_value r20-c1 2.4435174268373898 
+error_value r20-c2 2.51575542730665 
+error_value r20-c3 2.2361748422117498 
+error_value r21-c2 2.0098924907406199 
+error_value r22-c2 1.8527938438824001 
+error_value r23-c2 2.6458979208905302 
+error_value r23-c3 1.4142825970803501 
+#end
+
+Completed
