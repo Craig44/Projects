@@ -1,0 +1,59 @@
+### Estimation command
+
+@estimation 
+minimiser simp 
+
+@minimiser simp
+type numerical_differences
+tolerance 0.02 #The default is 0.002
+covariance True
+
+@estimate
+parameter catchability[CPUEq].q
+type uniform
+lower_bound 1e-6
+upper_bound 1e-2
+
+@estimate
+parameter catchability[BINq].q
+type uniform
+lower_bound 1e-6
+upper_bound 1e-2
+
+@estimate
+parameter preference_function[stock_SST_sum].mu
+same	 preference_function[stock_SST_aut].mu 	preference_function[stock_SST_win].mu 	preference_function[stock_SST_spr].mu
+type uniform
+lower_bound 5
+upper_bound 30
+
+
+@estimate
+parameter preference_function[stock_SST_sum].sigma
+same	 preference_function[stock_SST_aut].sigma  preference_function[stock_SST_win].sigma  preference_function[stock_SST_spr].sigma
+type uniform
+lower_bound 0.1
+upper_bound 30
+
+
+
+@estimate
+parameter preference_function[stock_NPP_sum].mu
+same	 preference_function[stock_NPP_aut].mu 	preference_function[stock_NPP_win].mu 	preference_function[stock_NPP_spr].mu
+type uniform
+lower_bound 1
+upper_bound 1000
+
+@estimate
+parameter preference_function[stock_NPP_sum].sigma
+same	 preference_function[stock_NPP_aut].sigma 	preference_function[stock_NPP_win].sigma 	preference_function[stock_NPP_spr].sigma
+type uniform
+lower_bound 1
+upper_bound 700
+
+@estimate
+parameter preference_function[stock_NPP_sum].alpha
+same	 preference_function[stock_NPP_aut].alpha  preference_function[stock_NPP_win].alpha  preference_function[stock_NPP_spr].alpha
+type uniform
+lower_bound 0.05
+upper_bound 3

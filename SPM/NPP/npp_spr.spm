@@ -1,0 +1,5 @@
+@layer npp_spr
+type numeric_meta
+default_layer npp_07_spr
+years	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012
+layers	npp_03_spr	npp_04_spr	npp_05_spr	npp_06_spr	npp_07_spr	npp_08_spr	npp_09_spr	npp_10_spr	npp_11_spr 	npp_12_spr

@@ -1,0 +1,8 @@
+obs r8-c10 1
+obs r9-c10 0.5
+obs r9-c11 0.428571428571429
+obs r9-c12 0.571428571428571
+error_value r8-c10 3
+error_value r9-c10 2
+error_value r9-c11 7
+error_value r9-c12 7

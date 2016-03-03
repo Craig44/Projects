@@ -1,0 +1,138 @@
+# The reports/outputs
+
+@report sim_sum_02_obs
+type simulated_observation
+observation sum_02_obs
+
+@report sim_sum_05_obs
+type simulated_observation
+observation sum_05_obs
+
+@report sim_sum_08_obs
+type simulated_observation
+observation sum_08_obs
+
+@report sim_sum_09_obs
+type simulated_observation
+observation sum_09_obs
+
+@report sim_sum_10_obs
+type simulated_observation
+observation sum_10_obs
+
+@report sim_sum_11_obs
+type simulated_observation
+observation sum_11_obs
+
+@report sim_sum_12_obs
+type simulated_observation
+observation sum_12_obs
+
+## Autumn lognormal
+@report sim_aut_03_obs
+type simulated_observation
+observation aut_03_obs
+
+@report sim_aut_04_obs
+type simulated_observation
+observation aut_04_obs
+
+@report sim_aut_05_obs
+type simulated_observation
+observation aut_05_obs
+
+@report sim_aut_06_obs
+type simulated_observation
+observation aut_06_obs
+
+@report sim_aut_07_obs
+type simulated_observation
+observation aut_07_obs
+
+@report sim_aut_08_obs
+type simulated_observation
+observation aut_08_obs
+
+@report sim_aut_09_obs
+type simulated_observation
+observation aut_09_obs
+
+@report sim_aut_10_obs
+type simulated_observation
+observation aut_10_obs
+
+@report sim_aut_11_obs
+type simulated_observation
+observation aut_11_obs
+
+@report sim_aut_12_obs
+type simulated_observation
+observation aut_12_obs
+
+### Spring Observation
+@report sim_spr_05_obs
+type simulated_observation
+observation spr_05_obs
+
+@report sim_spr_06_obs
+type simulated_observation
+observation spr_06_obs
+
+@report sim_spr_07_obs
+type simulated_observation
+observation spr_07_obs
+
+@report sim_spr_08_obs
+type simulated_observation
+observation spr_08_obs
+
+@report sim_spr_09_obs
+type simulated_observation
+observation spr_09_obs
+
+@report sim_spr_10_obs
+type simulated_observation
+observation spr_10_obs
+
+@report sim_spr_11_obs
+type simulated_observation
+observation spr_11_obs
+
+## Winter 
+@report sim_win_03_obs
+type simulated_observation
+observation win_03_obs
+
+@report sim_win_04_obs
+type simulated_observation
+observation win_04_obs
+
+@report sim_win_05_obs
+type simulated_observation
+observation win_05_obs
+
+@report sim_win_06_obs
+type simulated_observation
+observation win_06_obs
+
+@report sim_win_07_obs
+type simulated_observation
+observation win_07_obs
+
+@report sim_win_08_obs
+type simulated_observation
+observation win_08_obs
+
+@report sim_win_10_obs
+type simulated_observation
+observation win_10_obs
+
+@report sim_win_11_obs
+type simulated_observation
+observation win_11_obs
+
+
+@report obj
+type objective_function
+
+

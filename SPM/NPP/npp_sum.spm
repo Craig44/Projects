@@ -1,0 +1,5 @@
+@layer npp_sum
+type numeric_meta
+default_layer npp_08_sum
+years	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012
+layers	npp_03_sum	npp_04_sum	npp_05_sum	npp_06_sum	npp_07_sum	npp_08_sum	npp_09_sum	npp_10_sum	npp_11_sum 	npp_12_sum

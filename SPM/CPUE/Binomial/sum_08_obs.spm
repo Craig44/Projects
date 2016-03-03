@@ -1,0 +1,14 @@
+obs r9-c10 0
+obs r9-c11 0
+obs r10-c12 0.5
+obs r9-c13 0
+obs r14-c15 0.75
+obs r15-c15 1
+obs r13-c16 0
+error_value r9-c10 4
+error_value r9-c11 2
+error_value r10-c12 2
+error_value r9-c13 2
+error_value r14-c15 4
+error_value r15-c15 2
+error_value r13-c16 2

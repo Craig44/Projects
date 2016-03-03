@@ -1,0 +1,1167 @@
+SPM (Spatial Population Model)
+Call: spm -s 1 -i params.out 
+Date: Thu Mar 03 19:14:55 2016
+v1.1-2015-11-01 (rev. 1266). Copyright (c) 2008-2015, NIWA
+User name: Cyrill
+Machine name: CYRILL-MARSH (Windows_NT, PID=9012)
+
+#[sim_sum_02_obs]
+#report.type: simulated_observation
+#observation.label: sum_02_obs
+@observation sum_02_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step one 
+type abundance 
+year 2002 
+
+#end
+
+#[sim_sum_05_obs]
+#report.type: simulated_observation
+#observation.label: sum_05_obs
+@observation sum_05_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step one 
+type abundance 
+year 2005 
+obs r8-c4 1 
+error_value r8-c4 2.8287208565239599 
+#end
+
+#[sim_sum_08_obs]
+#report.type: simulated_observation
+#observation.label: sum_08_obs
+@observation sum_08_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step one 
+type abundance 
+year 2008 
+obs r10-c12 1 
+obs r14-c15 1 
+obs r15-c15 1 
+error_value r10-c12 1.4145122212102801 
+error_value r14-c15 0.816067974787822 
+error_value r15-c15 0.470634783454697 
+#end
+
+#[sim_sum_09_obs]
+#report.type: simulated_observation
+#observation.label: sum_09_obs
+@observation sum_09_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step one 
+type abundance 
+year 2009 
+obs r12-c14 1 
+error_value r12-c14 0.82060457175047796 
+#end
+
+#[sim_sum_10_obs]
+#report.type: simulated_observation
+#observation.label: sum_10_obs
+@observation sum_10_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step one 
+type abundance 
+year 2010 
+obs r10-c13 1 
+obs r11-c13 1 
+obs r11-c14 1 
+obs r12-c14 1 
+obs r12-c15 1 
+obs r7-c9 1 
+obs r8-c10 1 
+obs r8-c9 1 
+error_value r10-c13 1.1555047534528999 
+error_value r11-c13 1.3133433003999699 
+error_value r11-c14 0.64149250232173405 
+error_value r12-c14 0.660349093003466 
+error_value r12-c15 0.57559684825630197 
+error_value r7-c9 0.997424337298778 
+error_value r8-c10 1.7333160038294699 
+error_value r8-c9 0.70563494907421598 
+#end
+
+#[sim_sum_11_obs]
+#report.type: simulated_observation
+#observation.label: sum_11_obs
+@observation sum_11_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step one 
+type abundance 
+year 2011 
+obs r10-c13 1 
+obs r11-c13 1 
+obs r11-c14 1 
+error_value r10-c13 1.15414811989928 
+error_value r11-c13 0.44714231110406599 
+error_value r11-c14 0.77450294303088896 
+#end
+
+#[sim_sum_12_obs]
+#report.type: simulated_observation
+#observation.label: sum_12_obs
+@observation sum_12_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step one 
+type abundance 
+year 2012 
+obs r10-c12 1 
+obs r13-c7 1 
+obs r14-c7 1 
+obs r15-c7 1 
+obs r15-c8 1 
+obs r9-c12 1 
+error_value r10-c12 1.4151876188078401 
+error_value r13-c7 1.0954712432625799 
+error_value r14-c7 0.86888809182461302 
+error_value r15-c7 1.0954678364164701 
+error_value r15-c8 1.3693943111178 
+error_value r9-c12 1.3902798301553601 
+#end
+
+#[sim_aut_03_obs]
+#report.type: simulated_observation
+#observation.label: aut_03_obs
+@observation aut_03_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2003 
+obs r11-c16 1 
+obs r12-c16 1 
+obs r12-c17 1 
+obs r12-c18 1 
+obs r13-c17 1 
+obs r13-c18 1 
+obs r14-c15 1 
+obs r14-c16 1 
+obs r15-c14 1 
+obs r15-c15 1 
+obs r18-c2 1 
+obs r19-c2 1 
+obs r19-c3 1 
+obs r20-c2 1 
+obs r20-c3 1 
+obs r21-c2 1 
+obs r22-c3 1 
+obs r23-c3 1 
+error_value r11-c16 0.91347143999855196 
+error_value r12-c16 1.7321199501600999 
+error_value r12-c17 0.86881100652187604 
+error_value r12-c18 1.0622514066727999 
+error_value r13-c17 2.0080590319084499 
+error_value r13-c18 0.82261006635046496 
+error_value r14-c15 0.77113637011779801 
+error_value r14-c16 1.02526678464395 
+error_value r15-c14 0.20000000000000001 
+error_value r15-c15 0.20000000000000001 
+error_value r18-c2 4.7959474261050499 
+error_value r19-c2 1.6990592719111399 
+error_value r19-c3 2.2794431716328898 
+error_value r20-c2 2.7018380081762698 
+error_value r20-c3 1.5645118324453899 
+error_value r21-c2 2.88530343893563 
+error_value r22-c3 1.41426040508704 
+error_value r23-c3 0.90001166160593105 
+#end
+
+#[sim_aut_04_obs]
+#report.type: simulated_observation
+#observation.label: aut_04_obs
+@observation aut_04_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2004 
+obs r11-c10 1 
+obs r12-c10 1 
+obs r12-c13 1 
+obs r12-c16 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r14-c15 1 
+obs r14-c16 1 
+obs r15-c15 1 
+obs r16-c13 1 
+obs r19-c1 1 
+obs r19-c2 1 
+obs r20-c1 1 
+obs r20-c2 1 
+obs r20-c3 1 
+obs r21-c2 1 
+obs r22-c2 1 
+obs r23-c2 1 
+obs r23-c3 1 
+error_value r11-c10 0.70667325827990402 
+error_value r12-c10 1.02048027424312 
+error_value r12-c13 0.20000000000000001 
+error_value r12-c16 1.7324180972200101 
+error_value r13-c15 1.6150131681047799 
+error_value r13-c16 1.7324569180764999 
+error_value r14-c15 1.2260217067741499 
+error_value r14-c16 0.87253992157294502 
+error_value r15-c15 1.3674313663556401 
+error_value r16-c13 1.4147760670710701 
+error_value r19-c1 5.2916248574602101 
+error_value r19-c2 3.0474846573078098 
+error_value r20-c1 2.4435174268373898 
+error_value r20-c2 2.51575542730665 
+error_value r20-c3 2.2361748422117498 
+error_value r21-c2 2.0098924907406199 
+error_value r22-c2 1.8527938438824001 
+error_value r23-c2 2.6458979208905302 
+error_value r23-c3 1.4142825970803501 
+#end
+
+#[sim_aut_05_obs]
+#report.type: simulated_observation
+#observation.label: aut_05_obs
+@observation aut_05_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2005 
+obs r12-c14 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c16 1 
+obs r18-c1 1 
+obs r18-c2 1 
+obs r19-c2 1 
+obs r19-c3 1 
+obs r20-c2 1 
+obs r21-c2 1 
+obs r22-c2 1 
+obs r8-c11 1 
+obs r9-c11 1 
+error_value r12-c14 0.61909598027104695 
+error_value r12-c15 0.70358846468668201 
+error_value r12-c16 0.89521984936383303 
+error_value r13-c16 1.7622531341801999 
+error_value r18-c1 1.4142636750328399 
+error_value r18-c2 2.9073407828092601 
+error_value r19-c2 2.2050144355230201 
+error_value r19-c3 1.41425920786702 
+error_value r20-c2 2.4495942780849602 
+error_value r21-c2 1.77980032330102 
+error_value r22-c2 1.37381529642074 
+error_value r8-c11 1.41443874445631 
+error_value r9-c11 1.17903334171923 
+#end
+
+#[sim_aut_06_obs]
+#report.type: simulated_observation
+#observation.label: aut_06_obs
+@observation aut_06_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2006 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r14-c15 1 
+obs r15-c14 1 
+obs r15-c15 1 
+obs r16-c7 1 
+obs r18-c2 1 
+obs r19-c1 1 
+obs r19-c2 1 
+obs r20-c2 1 
+obs r21-c2 1 
+obs r22-c2 1 
+error_value r13-c15 0.77819770665315702 
+error_value r13-c16 1.4143965411441799 
+error_value r14-c15 1.1850539801072899 
+error_value r15-c14 0.33077692635463402 
+error_value r15-c15 0.236519017280964 
+error_value r16-c7 0.65385048567973603 
+error_value r18-c2 4.12323060205396 
+error_value r19-c1 3.16238922682499 
+error_value r19-c2 3.6056705081004599 
+error_value r20-c2 1.92755968229283 
+error_value r21-c2 3.0028358348262598 
+error_value r22-c2 3.0001169423513798 
+#end
+
+#[sim_aut_07_obs]
+#report.type: simulated_observation
+#observation.label: aut_07_obs
+@observation aut_07_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2007 
+obs r11-c15 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r14-c15 1 
+obs r17-c3 1 
+obs r17-c4 1 
+obs r18-c2 1 
+obs r18-c3 1 
+obs r18-c4 1 
+obs r19-c2 1 
+obs r20-c2 1 
+obs r21-c2 1 
+obs r22-c2 1 
+obs r7-c17 1 
+obs r7-c18 1 
+obs r8-c16 1 
+obs r8-c17 1 
+obs r8-c8 1 
+obs r9-c11 1 
+obs r9-c16 1 
+error_value r11-c15 0.73648931393198902 
+error_value r12-c15 1.06670057591371 
+error_value r12-c16 0.99966727652106202 
+error_value r13-c15 0.57838432757552005 
+error_value r13-c16 0.20000000000000001 
+error_value r14-c15 0.96731543431012201 
+error_value r17-c3 2.82346015821622 
+error_value r17-c4 2.4426048106693399 
+error_value r18-c2 3.7417780450045202 
+error_value r18-c3 2.9956594098650799 
+error_value r18-c4 1.7321224828898401 
+error_value r19-c2 2.7642358470862201 
+error_value r20-c2 3.3167357526491599 
+error_value r21-c2 3.3148716310375499 
+error_value r22-c2 2.8285287544233801 
+error_value r7-c17 0.90131548655375304 
+error_value r7-c18 1.4146058152582 
+error_value r8-c16 2.4498840380545501 
+error_value r8-c17 1.7323525437630001 
+error_value r8-c8 0.75637012923282099 
+error_value r9-c11 1.41432217428593 
+error_value r9-c16 1.1547435010348299 
+#end
+
+#[sim_aut_08_obs]
+#report.type: simulated_observation
+#observation.label: aut_08_obs
+@observation aut_08_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2008 
+obs r14-c15 1 
+obs r19-c2 1 
+obs r19-c3 1 
+obs r20-c2 1 
+obs r7-c17 1 
+obs r9-c11 1 
+obs r9-c12 1 
+error_value r14-c15 1.4144680982981199 
+error_value r19-c2 2.2332620898531998 
+error_value r19-c3 1.72434305124775 
+error_value r20-c2 4.6970213948969004 
+error_value r7-c17 0.34350017920285703 
+error_value r9-c11 1.38584324967849 
+error_value r9-c12 0.24168485244287399 
+#end
+
+#[sim_aut_09_obs]
+#report.type: simulated_observation
+#observation.label: aut_09_obs
+@observation aut_09_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2009 
+obs r11-c15 1 
+obs r12-c14 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c16 1 
+obs r18-c2 1 
+obs r19-c2 1 
+obs r20-c2 1 
+obs r8-c8 1 
+error_value r11-c15 0.52711947451484398 
+error_value r12-c14 0.28225099508728102 
+error_value r12-c15 0.79895158451680504 
+error_value r12-c16 0.20000000000000001 
+error_value r13-c16 1.1448485573257099 
+error_value r18-c2 3.8731373474920301 
+error_value r19-c2 2.7307592544622601 
+error_value r20-c2 3.5279778837150402 
+error_value r8-c8 0.895566323811815 
+#end
+
+#[sim_aut_10_obs]
+#report.type: simulated_observation
+#observation.label: aut_10_obs
+@observation aut_10_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2010 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r14-c15 1 
+obs r19-c3 1 
+obs r20-c2 1 
+obs r20-c3 1 
+obs r9-c12 1 
+error_value r13-c15 0.254578899268804 
+error_value r13-c16 0.34095913482892798 
+error_value r14-c15 0.83402880994809303 
+error_value r19-c3 3.60569854943477 
+error_value r20-c2 3.2824285545135101 
+error_value r20-c3 2.8285588696402599 
+error_value r9-c12 1.4144113702983001 
+#end
+
+#[sim_aut_11_obs]
+#report.type: simulated_observation
+#observation.label: aut_11_obs
+@observation aut_11_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2011 
+obs r10-c13 1 
+obs r10-c9 1 
+obs r11-c10 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r13-c6 1 
+obs r13-c7 1 
+obs r14-c15 1 
+obs r14-c16 1 
+obs r19-c1 1 
+obs r19-c2 1 
+obs r20-c2 1 
+error_value r10-c13 2.6460339522826199 
+error_value r10-c9 2.23631915631967 
+error_value r11-c10 0.34621826310014497 
+error_value r12-c15 1.0294496803075299 
+error_value r12-c16 1.68220377661084 
+error_value r13-c15 0.72644885451173202 
+error_value r13-c16 0.70602057392022699 
+error_value r13-c6 1.41447966081018 
+error_value r13-c7 0.20000000000000001 
+error_value r14-c15 1.0772937299470999 
+error_value r14-c16 1.73300979386077 
+error_value r19-c1 6.0829250701720303 
+error_value r19-c2 3.6801015853567098 
+error_value r20-c2 2.4180464575499099 
+#end
+
+#[sim_aut_12_obs]
+#report.type: simulated_observation
+#observation.label: aut_12_obs
+@observation aut_12_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step two 
+type abundance 
+year 2012 
+obs r13-c15 1 
+obs r13-c6 1 
+obs r14-c15 1 
+obs r15-c15 1 
+obs r16-c6 1 
+obs r16-c7 1 
+obs r17-c2 1 
+obs r17-c3 1 
+obs r17-c4 1 
+obs r17-c6 1 
+obs r18-c2 1 
+obs r18-c3 1 
+obs r19-c1 1 
+obs r19-c2 1 
+obs r20-c2 1 
+error_value r13-c15 0.999630382364463 
+error_value r13-c6 1.73225199978427 
+error_value r14-c15 0.52722043986924805 
+error_value r15-c15 1.26821591313549 
+error_value r16-c6 0.86599566325769295 
+error_value r16-c7 0.20000000000000001 
+error_value r17-c2 0.87736407392719995 
+error_value r17-c3 1.6714484997797301 
+error_value r17-c4 1.36979311850983 
+error_value r17-c6 1.39323245481352 
+error_value r18-c2 2.3508097765485001 
+error_value r18-c3 3.1623986213709498 
+error_value r19-c1 3.4642374980981399 
+error_value r19-c2 4.8983545264346402 
+error_value r20-c2 3.2784195068850899 
+#end
+
+#[sim_spr_05_obs]
+#report.type: simulated_observation
+#observation.label: spr_05_obs
+@observation spr_05_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step four 
+type abundance 
+year 2005 
+obs r7-c10 1 
+obs r7-c11 1 
+obs r8-c10 1 
+error_value r7-c10 1.41443874445631 
+error_value r7-c11 0.77595379155537203 
+error_value r8-c10 1.41443874445631 
+#end
+
+#[sim_spr_06_obs]
+#report.type: simulated_observation
+#observation.label: spr_06_obs
+@observation spr_06_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step four 
+type abundance 
+year 2006 
+obs r4-c16 1 
+obs r4-c17 1 
+obs r5-c16 1 
+obs r6-c16 1 
+obs r8-c10 1 
+error_value r4-c16 1.0266063889532899 
+error_value r4-c17 1.7322620557451101 
+error_value r5-c16 1.7322428576995601 
+error_value r6-c16 3.0003331976105398 
+error_value r8-c10 1.41435995810124 
+#end
+
+#[sim_spr_07_obs]
+#report.type: simulated_observation
+#observation.label: spr_07_obs
+@observation spr_07_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step four 
+type abundance 
+year 2007 
+obs r8-c10 1 
+obs r8-c9 1 
+error_value r8-c10 0.79860174885855695 
+error_value r8-c9 0.20000000000000001 
+#end
+
+#[sim_spr_08_obs]
+#report.type: simulated_observation
+#observation.label: spr_08_obs
+@observation spr_08_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step four 
+type abundance 
+year 2008 
+obs r8-c10 1 
+obs r9-c10 1 
+obs r9-c11 1 
+obs r9-c12 1 
+error_value r8-c10 0.431795121048759 
+error_value r9-c10 1.41494452620978 
+error_value r9-c11 1.4327206193194999 
+error_value r9-c12 1.16685216536515 
+#end
+
+#[sim_spr_09_obs]
+#report.type: simulated_observation
+#observation.label: spr_09_obs
+@observation spr_09_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step four 
+type abundance 
+year 2009 
+obs r10-c12 1 
+obs r10-c13 1 
+obs r6-c8 1 
+obs r6-c9 1 
+obs r8-c8 1 
+obs r8-c9 1 
+obs r9-c11 1 
+obs r9-c12 1 
+error_value r10-c12 2.0002812379997099 
+error_value r10-c13 2.26119797353316 
+error_value r6-c8 0.75858754280139495 
+error_value r6-c9 0.68548075341571402 
+error_value r8-c8 0.81631162376373601 
+error_value r8-c9 0.20000000000000001 
+error_value r9-c11 0.20000000000000001 
+error_value r9-c12 0.76577627205401799 
+#end
+
+#[sim_spr_10_obs]
+#report.type: simulated_observation
+#observation.label: spr_10_obs
+@observation spr_10_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step four 
+type abundance 
+year 2010 
+obs r8-c7 1 
+obs r8-c8 1 
+obs r9-c12 1 
+obs r9-c13 1 
+obs r9-c14 1 
+error_value r8-c7 0.38340792504800097 
+error_value r8-c8 0.912852580236444 
+error_value r9-c12 0.865270630157978 
+error_value r9-c13 0.80214687467117796 
+error_value r9-c14 1.15474752767953 
+#end
+
+#[sim_spr_11_obs]
+#report.type: simulated_observation
+#observation.label: spr_11_obs
+@observation spr_11_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step four 
+type abundance 
+year 2011 
+obs r10-c12 1 
+obs r6-c10 1 
+obs r6-c8 1 
+obs r6-c9 1 
+obs r7-c10 1 
+obs r7-c11 1 
+obs r8-c10 1 
+obs r9-c11 1 
+obs r9-c12 1 
+error_value r10-c12 0.45689163775393199 
+error_value r6-c10 1.0146070755296499 
+error_value r6-c8 0.62235233749442698 
+error_value r6-c9 1.0787179910037501 
+error_value r7-c10 0.87633789187222699 
+error_value r7-c11 0.65712535434549502 
+error_value r8-c10 0.24500343892852799 
+error_value r9-c11 1.4145062521803899 
+error_value r9-c12 0.45689163775393199 
+#end
+
+#[sim_win_03_obs]
+#report.type: simulated_observation
+#observation.label: win_03_obs
+@observation win_03_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step three 
+type abundance 
+year 2003 
+obs r1-c18 1 
+obs r1-c19 1 
+obs r10-c13 1 
+obs r16-c3 1 
+obs r16-c4 1 
+obs r16-c5 1 
+obs r17-c2 1 
+obs r17-c3 1 
+obs r17-c4 1 
+obs r17-c5 1 
+obs r18-c2 1 
+obs r18-c3 1 
+obs r2-c17 1 
+obs r2-c18 1 
+obs r2-c19 1 
+obs r2-c20 1 
+obs r2-c21 1 
+obs r3-c14 1 
+obs r3-c15 1 
+obs r3-c16 1 
+obs r3-c20 1 
+obs r3-c21 1 
+obs r4-c14 1 
+obs r4-c15 1 
+obs r4-c20 1 
+obs r4-c21 1 
+obs r5-c14 1 
+obs r6-c16 1 
+obs r6-c20 1 
+obs r7-c14 1 
+obs r7-c8 1 
+obs r7-c9 1 
+obs r8-c12 1 
+obs r8-c7 1 
+obs r9-c11 1 
+obs r9-c12 1 
+obs r9-c13 1 
+error_value r1-c18 1.4142510805822299 
+error_value r1-c19 1.3944232517375199 
+error_value r10-c13 0.53312535646581005 
+error_value r16-c3 1.4735694874157199 
+error_value r16-c4 1.2659887042437901 
+error_value r16-c5 2.2362419317761 
+error_value r17-c2 2.8162730065952801 
+error_value r17-c3 2.7431754719064498 
+error_value r17-c4 1.7080015372135 
+error_value r17-c5 2.2361823131498602 
+error_value r18-c2 2.5956260141685301 
+error_value r18-c3 1.87002754211853 
+error_value r2-c17 1.4142556284421901 
+error_value r2-c18 1.7321192115917801 
+error_value r2-c19 1.3239250425415801 
+error_value r2-c20 1.2301200211957899 
+error_value r2-c21 1.2632415471152401 
+error_value r3-c14 0.42059911857120302 
+error_value r3-c15 0.67697415672064898 
+error_value r3-c16 0.86802883076752402 
+error_value r3-c20 1.2897635996227701 
+error_value r3-c21 0.87008190994638102 
+error_value r4-c14 0.37158852178903701 
+error_value r4-c15 1.7321051695787399 
+error_value r4-c20 0.72756143775668003 
+error_value r4-c21 1.7321071554093499 
+error_value r5-c14 0.73203719529038302 
+error_value r6-c16 0.32467457924340198 
+error_value r6-c20 1.41426185716924 
+error_value r7-c14 0.20000000000000001 
+error_value r7-c8 1.13821433459587 
+error_value r7-c9 0.92189621948832101 
+error_value r8-c12 1.73218273199531 
+error_value r8-c7 0.71153988484151298 
+error_value r9-c11 2.2361552397885101 
+error_value r9-c12 1.37163173561846 
+error_value r9-c13 1.4896482250557399 
+#end
+
+#[sim_win_04_obs]
+#report.type: simulated_observation
+#observation.label: win_04_obs
+@observation win_04_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step three 
+type abundance 
+year 2004 
+obs r11-c14 1 
+obs r11-c15 1 
+obs r12-c14 1 
+obs r12-c15 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r14-c15 1 
+obs r15-c15 1 
+obs r16-c5 1 
+obs r16-c6 1 
+obs r16-c7 1 
+obs r17-c3 1 
+obs r17-c4 1 
+obs r17-c5 1 
+obs r17-c6 1 
+obs r18-c2 1 
+obs r18-c3 1 
+obs r18-c4 1 
+obs r19-c2 1 
+obs r6-c8 1 
+obs r7-c8 1 
+obs r7-c9 1 
+obs r8-c10 1 
+obs r9-c10 1 
+obs r9-c11 1 
+error_value r11-c14 0.37619389724742403 
+error_value r11-c15 0.20000000000000001 
+error_value r12-c14 0.216165261826995 
+error_value r12-c15 0.20000000000000001 
+error_value r13-c15 0.68347274848120698 
+error_value r13-c16 0.20000000000000001 
+error_value r14-c15 0.34103912464663899 
+error_value r15-c15 0.60537923337334898 
+error_value r16-c5 2.2361659064753998 
+error_value r16-c6 1.54963991675095 
+error_value r16-c7 1.4142597987287999 
+error_value r17-c3 0.20000000000000001 
+error_value r17-c4 1.68723132723549 
+error_value r17-c5 1.8034269509380201 
+error_value r17-c6 1.7480771512164199 
+error_value r18-c2 4.0813408790228296 
+error_value r18-c3 1.53333910626323 
+error_value r18-c4 1.3912472395059701 
+error_value r19-c2 1.80998265375981 
+error_value r6-c8 2.0001698513853201 
+error_value r7-c8 1.0657266270355601 
+error_value r7-c9 0.875403258218444 
+error_value r8-c10 1.51435842918958 
+error_value r9-c10 1.7322268583618099 
+error_value r9-c11 0.76185530127735601 
+#end
+
+#[sim_win_05_obs]
+#report.type: simulated_observation
+#observation.label: win_05_obs
+@observation win_05_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step three 
+type abundance 
+year 2005 
+obs r10-c12 1 
+obs r11-c14 1 
+obs r11-c15 1 
+obs r11-c16 1 
+obs r12-c14 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c16 1 
+obs r17-c3 1 
+obs r17-c4 1 
+obs r17-c5 1 
+obs r18-c4 1 
+obs r19-c3 1 
+error_value r10-c12 0.20000000000000001 
+error_value r11-c14 0.90611842177449997 
+error_value r11-c15 1.3167843503880801 
+error_value r11-c16 0.80298308887471004 
+error_value r12-c14 3.1628470801928001 
+error_value r12-c15 1.7631329931736801 
+error_value r12-c16 0.95907408625208301 
+error_value r13-c16 0.76153191550073496 
+error_value r17-c3 1.4142597113076001 
+error_value r17-c4 1.8565520256942101 
+error_value r17-c5 3.4642336148719202 
+error_value r18-c4 2.8285276481747901 
+error_value r19-c3 2.0000963623205399 
+#end
+
+#[sim_win_06_obs]
+#report.type: simulated_observation
+#observation.label: win_06_obs
+@observation win_06_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step three 
+type abundance 
+year 2006 
+obs r10-c13 1 
+obs r11-c15 1 
+obs r11-c16 1 
+obs r12-c14 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r14-c15 1 
+obs r16-c2 1 
+obs r16-c4 1 
+obs r17-c2 1 
+obs r17-c3 1 
+obs r17-c4 1 
+error_value r10-c13 0.65127795415407597 
+error_value r11-c15 0.653553419617381 
+error_value r11-c16 0.88508863558146 
+error_value r12-c14 1.41442266800068 
+error_value r12-c15 0.70097573232879995 
+error_value r12-c16 0.62343868139839298 
+error_value r13-c15 0.50040255319092097 
+error_value r13-c16 0.56577640258693696 
+error_value r14-c15 0.941943024001058 
+error_value r16-c2 0.20000000000000001 
+error_value r16-c4 1.5442704033241601 
+error_value r17-c2 2.4425484963945499 
+error_value r17-c3 1.85209360855192 
+error_value r17-c4 1.4142609354373099 
+#end
+
+#[sim_win_07_obs]
+#report.type: simulated_observation
+#observation.label: win_07_obs
+@observation win_07_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step three 
+type abundance 
+year 2007 
+obs r10-c15 1 
+obs r11-c14 1 
+obs r11-c15 1 
+obs r11-c16 1 
+obs r12-c14 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r16-c4 1 
+obs r16-c5 1 
+obs r16-c6 1 
+obs r17-c3 1 
+obs r17-c4 1 
+obs r7-c10 1 
+obs r8-c10 1 
+obs r8-c11 1 
+obs r8-c9 1 
+error_value r10-c15 0.34101390138203802 
+error_value r11-c14 0.870030582371766 
+error_value r11-c15 0.85233904981146402 
+error_value r11-c16 1.1131688929485599 
+error_value r12-c14 0.92360933943601298 
+error_value r12-c15 0.68330651150255495 
+error_value r12-c16 0.91314500951340904 
+error_value r13-c15 0.92765552306000398 
+error_value r13-c16 1.1746581118205599 
+error_value r16-c4 1.2395192195545199 
+error_value r16-c5 1.73211835882808 
+error_value r16-c6 1.4142603751401299 
+error_value r17-c3 1.9068611925588901 
+error_value r17-c4 2.5101399899461501 
+error_value r7-c10 1.41452164565091 
+error_value r8-c10 1.1854056032570199 
+error_value r8-c11 1.13818523622503 
+error_value r8-c9 0.81743920412119997 
+#end
+
+#[sim_win_08_obs]
+#report.type: simulated_observation
+#observation.label: win_08_obs
+@observation win_08_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step three 
+type abundance 
+year 2008 
+obs r10-c12 1 
+obs r10-c14 1 
+obs r11-c14 1 
+obs r11-c15 1 
+obs r11-c16 1 
+obs r12-c15 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r18-c2 1 
+obs r18-c3 1 
+obs r6-c7 1 
+obs r6-c8 1 
+obs r7-c11 1 
+obs r8-c11 1 
+obs r8-c12 1 
+obs r8-c9 1 
+obs r9-c11 1 
+obs r9-c12 1 
+error_value r10-c12 0.60557546871423396 
+error_value r10-c14 1.4454531175912799 
+error_value r11-c14 0.66295655226227002 
+error_value r11-c15 0.56400267307637098 
+error_value r11-c16 1.1831232745298099 
+error_value r12-c15 0.39321275977841902 
+error_value r13-c15 0.58379200069987103 
+error_value r13-c16 0.63811444826706898 
+error_value r18-c2 1.01221128269643 
+error_value r18-c3 1.21289869198839 
+error_value r6-c7 0.79283592233924705 
+error_value r6-c8 0.20000000000000001 
+error_value r7-c11 0.470570753348518 
+error_value r8-c11 0.85057009924870297 
+error_value r8-c12 1.4144574987712 
+error_value r8-c9 1.4147297998346 
+error_value r9-c11 0.303499209102915 
+error_value r9-c12 0.82060501641197403 
+#end
+
+#[sim_win_10_obs]
+#report.type: simulated_observation
+#observation.label: win_10_obs
+@observation win_10_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step three 
+type abundance 
+year 2010 
+obs r10-c13 1 
+obs r11-c14 1 
+obs r11-c15 1 
+obs r11-c16 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c15 1 
+obs r13-c16 1 
+obs r14-c15 1 
+obs r17-c6 1 
+obs r18-c2 1 
+obs r19-c1 1 
+obs r19-c2 1 
+obs r6-c8 1 
+obs r7-c8 1 
+obs r9-c13 1 
+obs r9-c14 1 
+error_value r10-c13 0.83668146756052297 
+error_value r11-c14 0.34665234313135002 
+error_value r11-c15 1.7325535276077799 
+error_value r11-c16 0.20158260508574499 
+error_value r12-c15 0.68349766396771205 
+error_value r12-c16 0.29493378343987903 
+error_value r13-c15 0.73289367181741705 
+error_value r13-c16 0.79981226817416295 
+error_value r14-c15 0.67433944387751499 
+error_value r17-c6 1.13840884995506 
+error_value r18-c2 1.7321353252406 
+error_value r19-c1 1.7158150985226499 
+error_value r19-c2 1.92834465202307 
+error_value r6-c8 0.47053607772652101 
+error_value r7-c8 1.20400833750261 
+error_value r9-c13 0.85970223787649402 
+error_value r9-c14 1.0954726178543901 
+#end
+
+#[sim_win_11_obs]
+#report.type: simulated_observation
+#observation.label: win_11_obs
+@observation win_11_obs
+catchability CPUEq 
+categories stock 
+layer obs_cat 
+likelihood lognormal
+selectivities One 
+time_step three 
+type abundance 
+year 2011 
+obs r10-c13 1 
+obs r10-c14 1 
+obs r11-c13 1 
+obs r11-c14 1 
+obs r11-c15 1 
+obs r11-c16 1 
+obs r12-c14 1 
+obs r12-c15 1 
+obs r12-c16 1 
+obs r13-c15 1 
+obs r14-c15 1 
+obs r18-c3 1 
+obs r19-c2 1 
+obs r19-c3 1 
+obs r6-c10 1 
+obs r8-c11 1 
+obs r9-c10 1 
+obs r9-c11 1 
+obs r9-c12 1 
+error_value r10-c13 0.70669914405043999 
+error_value r10-c14 0.50715757693932095 
+error_value r11-c13 0.60394826412393798 
+error_value r11-c14 0.75874293055235698 
+error_value r11-c15 0.20000000000000001 
+error_value r11-c16 1.41447966081018 
+error_value r12-c14 0.42223407583679101 
+error_value r12-c15 0.73605897486624605 
+error_value r12-c16 0.86602601308768901 
+error_value r13-c15 0.598813289656143 
+error_value r14-c15 1.20735715263137 
+error_value r18-c3 1.08369510792011 
+error_value r19-c2 3.0001389231868498 
+error_value r19-c3 0.91293803932609097 
+error_value r6-c10 0.20000000000000001 
+error_value r8-c11 0.85999775950763901 
+error_value r9-c10 0.49039793468534199 
+error_value r9-c11 0.87711026382270196 
+error_value r9-c12 1.4141124332563699 
+#end
+
+Completed

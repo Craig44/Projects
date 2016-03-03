@@ -1,0 +1,5 @@
+@layer npp_win
+type numeric_meta
+default_layer npp_08_win
+years	2003	2004	2005	2006	2007	2008	2009	2010	2011	2012
+layers	npp_03_win	npp_04_win	npp_05_win	npp_06_win	npp_07_win	npp_08_win	npp_09_win	npp_10_win	npp_11_win	npp_12_win

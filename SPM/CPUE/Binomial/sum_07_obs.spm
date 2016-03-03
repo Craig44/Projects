@@ -1,0 +1,4 @@
+obs r12-c14 0
+obs r7-c15 0.5
+error_value r12-c14 9
+error_value r7-c15 2

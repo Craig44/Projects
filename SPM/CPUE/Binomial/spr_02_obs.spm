@@ -1,0 +1,4 @@
+obs r9-c10 0.666666666666667
+obs r9-c11 0.666666666666667
+error_value r9-c10 3
+error_value r9-c11 6
