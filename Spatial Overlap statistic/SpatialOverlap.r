@@ -43,11 +43,13 @@ Cells_ = 11; ## Number of spatial cells
 ####################
 ## CPUE parameters
 sigma = 0.2; # std deviation of CPUE data
-# Our Observations from CPUE fishery
-mu = c(20.085537, 400,    64.56,   32.3526,  148.413159, 403.428793,   24.3452,   59.3425 ,  20.085537,   54.598150, 403.428793) * 100;
-obs = Rlnorm(mu = mu, sigma = sigma); ## 100 is a scaler for abundance
 ## Catchability
 q = 1.7;
+# Our Observations from CPUE fishery
+mu = c(20.085537, 400,    64.56,   32.3526,  148.413159, 403.428793,   24.3452,   59.3425 ,  20.085537,   54.598150, 403.428793) * 100 / q;
+
+obs = Rlnorm(mu = mu, sigma = sigma); ## 100 is a scaler for abundance
+
 
 ## Mark-Recapture likelihood
 ## Each recapture and scanned individual in size bin follow a binomial random variable
@@ -60,13 +62,13 @@ recaptures = c(4, 8, 6, 12, 0, 2,8,2,0,5, 6);
 prob = recaptures/scanned;
 rel = ((obs * q) * recaptures) / scanned;
 
-
 ## Generate a random sample from a binomial where n = scanned, p = recap / scanned
 (rel * scanned) / recaptures;
 Recaptures = rbinom(length(scanned), size = scanned, prob = prob);
-
-
-
+(rel * scanned) / Recaptures;
+  
+ndx = rel == 0;
+rel[ndx] = 3112;
 
 #|-------------------------
 #|B_1 |B_2 |B_3 |B_4 |B_5 |
@@ -76,10 +78,10 @@ Recaptures = rbinom(length(scanned), size = scanned, prob = prob);
 
 
 library(rstan);
-rstan_options(auto_write = TRUE);
-if (parallel::detectCores() > 2)
-  cores = 2
-options(mc.cores = cores);
+#rstan_options(auto_write = TRUE);
+#if (parallel::detectCores() > 2)
+#  cores = 2
+#options(mc.cores = cores);
 ## Set wd
 if (Sys.info()[["nodename"]]=="NIWA-1007004") {
   ## Work computer
@@ -93,7 +95,7 @@ if (Sys.info()[["nodename"]]=="NIWA-1007004") {
 ####################
 ## load model
 ####################
-source("SpatialOverlap.rstan");
+#source("SpatialOverlap.rstan")
 #model = stanc(file = "SpatialOverlap.rstan", model_name = "Single_time_step");
   
 ####################
@@ -102,7 +104,13 @@ source("SpatialOverlap.rstan");
 Data = list("S" = Cells_, "Scanned" = scanned, "Recaptured" = Recaptures, "Tagged" = rel, "Catch_rate" = obs, "Sigma" = sigma);
 
 
-fit <- stan(model_code = SpatialOverlapModel, model_name = "SpatialOverlap", data = Data,diagnostic_file = "diagnostic_file.out");
+mdl <- stan_model(file = 'SpatialOverlap.rstan');
+
+## Initialise values
+fit_init <- function() { list(q = q, Absolute_Abundance_hat = mu) }
+# MPD Fit
+fit <- optimizing(mdl, data = Data, init = fit_init)
+
 
 
 

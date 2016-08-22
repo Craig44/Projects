@@ -3,7 +3,6 @@
 
 ## The model
 
-SpatialOverlapModel = "
 data {
   int<lower=0> S;			# Number of spatial cells
   int Scanned[S];			# Scanned numbers from 2nd sampling event at time t
@@ -14,8 +13,8 @@ data {
 }
 
 parameters {
-  vector[S] Abundance_hat;		# Estimated Biomass for each cell
-  real<lower=0> q;  				# Catchability (nuisance parameter) for Catch rate data.
+  vector<lower=0>[S] Absolute_Abundance_hat;		# Estimate Absolute Biomass for each cell
+  real<lower=0> q;  			# Catchability (nuisance parameter) for Catch rate data.
 }
 
 transformed parameters {
@@ -23,22 +22,24 @@ transformed parameters {
 }
 
 model {
+
   ## generate expectation
   real probability_recaptured[S];
   real Relative_abundance[S];
   
   for(i in 1:S){
+  
     ## Abundance component
-    Relative_abundance[i] <- log(Abundance_hat[i] * q);
+    Relative_abundance[i] <- log(Absolute_Abundance_hat[i] / q);
     Catch_rate[i] ~ lognormal(Relative_abundance[i], Sigma);
     ## mark recapture component
-    probability_recaptured[i] <- Tagged[i] / Abundance_hat[i];
+    probability_recaptured[i] <- Tagged[i] / Absolute_Abundance_hat[i];
     if (Recaptured[i] != 0)
       Recaptured[i] ~ binomial(Scanned[i], probability_recaptured[i]);	# Binomial segment
 
   }
 
   #Recaptured ~ binomial(Scanned, probability_recaptured);	# Binomial segment
-  #Catch_rate ~ lognormal(Relative_abundance, Sigma);	#
+  #Catch_rate ~ lognormal(Relative_abundance, Sigma);		#
 
-}"
+}
