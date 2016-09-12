@@ -1,0 +1,27 @@
+## This is an RDtan script which describes the data, parameters and model and priors
+##
+
+## The model
+
+data {
+  int<lower=0> S;			# Number of spatial cells
+  real Catch_rate[S];			# Observations from Catch rate data
+  real Sigma;				# Standard deviation for catch rate data.
+}
+
+parameters {
+  vector<lower=0>[S] Absolute_Abundance_hat;		# Estimate Absolute Biomass for each cell
+  real<lower=0> q;  			# Catchability (nuisance parameter) for Catch rate data.
+}
+
+transformed parameters {
+
+}
+
+model {
+    vector[S] Relative_abundance;   
+
+    Relative_abundance = log(Absolute_Abundance_hat * q);
+    Catch_rate ~ lognormal(Relative_abundance, Sigma);
+
+}
