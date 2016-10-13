@@ -86,7 +86,7 @@ library(rstan);
 if (Sys.info()[["nodename"]]=="NIWA-1007004") {
   ## Work computer
   setwd("C:/Craig/Personal/Projects/Spatial Overlap statistic\\");
-} else if (Sys.info()[["user"]]=="") {
+} else if (Sys.info()[["user"]]=="Cyrill") {
   ## Personal computer To be filled out
   setwd("C:\\Craig\\projects\\2016\\ANT1601-01 (SpatialOverlap)\\");
 }
