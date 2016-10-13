@@ -1,0 +1,47 @@
+// This class holds a whole lot of utility functions for generic arithmitic. e.g. sumning, inverting a matrix
+#include <iostream>
+#include <cmath>
+#include <map>
+#include <stdlib.h>
+
+
+// Tapping into Casal2's boost library
+#include <boost\numeric\ublas\matrix.hpp>
+#include <boost\numeric\ublas\lu.hpp>
+#include <boost\numeric\ublas\io.hpp>
+#include <boost\numeric\ublas\storage.hpp>
+
+using namespace std;
+
+// Utilty funciton for summing
+double Sum(vector<double> x) {
+    cout << "Beginning method ARMAtoMA() " << endl;
+  double Total;
+    for (unsigned i = 0; i< x.size(); ++i) {
+     Total += x[i];
+    }
+    cout << "leaving method ARMAtoMA() " << endl;
+    return Total;
+}
+// solve for the inverse of n x n matrix
+bool InvertMatrix(const boost::numeric::ublas::matrix<double>& input, boost::numeric::ublas::matrix<double>& inverse) {
+  typedef boost::numeric::ublas::permutation_matrix<std::size_t> pmatrix;
+  // create a working copy of the input
+  boost::numeric::ublas::matrix<double> A(input);
+
+  // create a permutation matrix for the LU-factorization
+  pmatrix pm(A.size1());
+
+  // perform LU-factorization
+  int res = boost::numeric::ublas::lu_factorize(A, pm);
+  if (res != 0)
+    return false;
+
+  // create identity matrix of "inverse"
+  inverse.assign(boost::numeric::ublas::identity_matrix<double> (A.size1()));
+
+  // backsubstitute to get the inverse
+  boost::numeric::ublas::lu_substitute(A, pm, inverse);
+
+  return true;
+}
