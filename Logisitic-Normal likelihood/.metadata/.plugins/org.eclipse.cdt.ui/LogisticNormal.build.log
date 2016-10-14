@@ -1,4 +1,4 @@
-12:42:35 **** Incremental Build of configuration Debug for project LogisticNormal ****
+17:45:00 **** Incremental Build of configuration Debug for project LogisticNormal ****
 make all 
 Building file: ../src/LogisticNormal.cpp
 Invoking: Cross G++ Compiler
@@ -11,5 +11,5 @@ g++  -o "LogisticNormal"  ./src/LogisticNormal.o
 Finished building target: LogisticNormal
  
 
-12:42:54 Build Finished (took 19s.898ms)
+17:45:21 Build Finished (took 21s.316ms)
 

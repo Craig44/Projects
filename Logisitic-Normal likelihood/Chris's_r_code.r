@@ -88,12 +88,13 @@ function(compdat,sigma,phi=0,covmat=NULL,sepbysex=F, sexlag=F, robust=F, ARMA=F)
       ##                sum(log(exp(-uu*ww[i,])+0.01))
       ## modified robustification
       tmp <- (ww[i,]^2) * Vinvdiag
-      negloglik <- negloglik+(0.5/(wts[i]^2))*
-        ((ww[i,] %*% Vinv) %*% ww[i,] - sum(tmp) -
-         sum(log(exp(-tmp)+0.01)))
-    }
-    else negloglik <- negloglik+(0.5/(wts[i]^2))*
-      (ww[i,] %*% Vinv) %*% ww[i,]
+      negloglik <- negloglik+(0.5/(wts[i]^2))* ((ww[i,] %*% Vinv) %*% ww[i,] - sum(tmp) - sum(log(exp(-tmp)+0.01)))
+
+    } else {
+    print(Paste(negloglik, "\n"))
+    negloglik <- negloglik + (0.5/(wts[i]^2)) * (ww[i,] %*% Vinv) %*% ww[i,]
+          print(Paste(" temp1 " ,(0.5/(wts[i]^2)) , " temp2 " ,(ww[i,] %*% Vinv) %*% ww[i,], " score = " , negloglik))
+        }
   }
   return(as.vector(negloglik))
 }

@@ -5715,3 +5715,2214 @@ Invoking: Cross G++ Linker
 g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
 Finished building target: LogisticNormal
  
+12:54:38 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'int main()':
+../src/LogisticNormal.cpp:94:2: error: 'covmat' was not declared in this scope
+  covmat = covmat_logistnorm(Sigma, phi,Binnam,sepbysex, sexlag, ARMA);
+  ^
+make: *** [src/LogisticNormal.o] Error 1
+12:55:12 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+13:02:17 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+13:02:48 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+13:07:41 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+13:09:00 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+13:30:26 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+13:43:08 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:02:36 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:23:15 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+make: Nothing to be done for `all'.
+14:24:36 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:25:40 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:34:24 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:43:36 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:44:53 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:46:10 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:46:45 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:48:08 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:51:34 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Command canceled
+14:51:45 **** Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:58:56 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+14:59:54 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:04:41 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:230:35: error: invalid operands of types 'double' and '__gnu_cxx::__alloc_traits<std::allocator<double> >::value_type {aka double}' to binary 'operator<<'
+       ublasV_mat(k,j) << Vmat[k][j];
+                                   ^
+make: *** [src/LogisticNormal.o] Error 1
+15:05:57 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:231:35: error: invalid operands of types 'double' and '__gnu_cxx::__alloc_traits<std::allocator<double> >::value_type {aka double}' to binary 'operator<<'
+       ublasV_mat(k,j) << Vmat[k][j];
+                                   ^
+make: *** [src/LogisticNormal.o] Error 1
+15:06:23 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:08:38 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+make: Nothing to be done for `all'.
+15:11:20 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:16:12: error: expected primary-expression before '=' token
+ #define PI = 3.14159265359;
+            ^
+../src/LogisticNormal.cpp:241:48: note: in expansion of macro 'PI'
+   score = 0.5 * N_years * (N_ages - 1) * log(2*PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                ^
+../src/LogisticNormal.cpp:241:50: error: expected primary-expression before ')' token
+   score = 0.5 * N_years * (N_ages - 1) * log(2*PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                  ^
+make: *** [src/LogisticNormal.o] Error 1
+15:13:01 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:16:25: error: expected ')' before ';' token
+ #define PI 3.14159265359;
+                         ^
+../src/LogisticNormal.cpp:241:48: note: in expansion of macro 'PI'
+   score = 0.5 * N_years * (N_ages - 1) * log(2*PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                ^
+../src/LogisticNormal.cpp:241:50: error: expected primary-expression before ')' token
+   score = 0.5 * N_years * (N_ages - 1) * log(2*PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                  ^
+make: *** [src/LogisticNormal.o] Error 1
+15:13:23 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:241:62: error: 'obsmat' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2*PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                              ^
+../src/LogisticNormal.cpp:241:69: error: 'sum' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2*PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                     ^
+../src/LogisticNormal.cpp:241:69: note: suggested alternatives:
+In file included from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:22:0,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector_expression.hpp:1587:5: note:   'boost::numeric::ublas::sum'
+     sum (const vector_expression<E> &e) {
+     ^
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector_expression.hpp:1587:5: note:   'boost::numeric::ublas::sum'
+../src/LogisticNormal.cpp:241:79: error: 'Nyear' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2*PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                               ^
+../src/LogisticNormal.cpp:241:99: error: 'det' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2*PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                                                   ^
+make: *** [src/LogisticNormal.o] Error 1
+15:16:05 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:238:64: error: 'obsmat' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                ^
+../src/LogisticNormal.cpp:238:71: error: 'sum' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                       ^
+../src/LogisticNormal.cpp:238:71: note: suggested alternatives:
+In file included from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:22:0,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector_expression.hpp:1587:5: note:   'boost::numeric::ublas::sum'
+     sum (const vector_expression<E> &e) {
+     ^
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector_expression.hpp:1587:5: note:   'boost::numeric::ublas::sum'
+../src/LogisticNormal.cpp:238:81: error: 'Nyear' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                                 ^
+../src/LogisticNormal.cpp:238:101: error: 'det' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                                                     ^
+../src/LogisticNormal.cpp: At global scope:
+../src/LogisticNormal.cpp:642:1: error: 'ValType' does not name a type
+ ValType det_fast(const boost::numeric::ublas::matrix<ValType>& matrix) {
+ ^
+make: *** [src/LogisticNormal.o] Error 1
+15:17:01 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:237:64: error: 'obsmat' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                ^
+../src/LogisticNormal.cpp:237:71: error: 'sum' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                       ^
+../src/LogisticNormal.cpp:237:71: note: suggested alternatives:
+In file included from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:22:0,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector_expression.hpp:1587:5: note:   'boost::numeric::ublas::sum'
+     sum (const vector_expression<E> &e) {
+     ^
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector_expression.hpp:1587:5: note:   'boost::numeric::ublas::sum'
+../src/LogisticNormal.cpp:237:81: error: 'Nyear' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                                 ^
+../src/LogisticNormal.cpp:237:101: error: 'det' was not declared in this scope
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
+                                                                                                     ^
+make: *** [src/LogisticNormal.o] Error 1
+15:18:28 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:237:63: error: no matching function for call to 'log(std::vector<std::vector<double> >&)'
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + log(obs) + 0.5 * N_years * log(det_fast(inv_Vmat));
+                                                               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:44:0,
+                 from ../src/LogisticNormal.cpp:4:
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/math.h:194:18: note: candidate: double log(double)
+   double __cdecl log(double _X);
+                  ^
+C:/TDM-GCC-64/x86_64-w64-mingw32/include/math.h:194:18: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'double'
+In file included from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/traits.hpp:17:0,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:26,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/complex:785:5: note: candidate: template<class _Tp> std::complex<_Tp> std::log(const std::complex<_Tp>&)
+     log(const complex<_Tp>& __z) { return __complex_log(__z.__rep()); }
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/complex:785:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:237:63: note:   'std::vector<std::vector<double> >' is not derived from 'const std::complex<_Tp>'
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + log(obs) + 0.5 * N_years * log(det_fast(inv_Vmat));
+                                                               ^
+In file included from ../src/LogisticNormal.cpp:4:0:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:369:5: note: candidate: template<class _Tp> constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::log(_Tp)
+     log(_Tp __x)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:369:5: note:   template argument deduction/substitution failed:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath: In substitution of 'template<class _Tp> constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::log(_Tp) [with _Tp = std::vector<std::vector<double> >]':
+../src/LogisticNormal.cpp:237:63:   required from here
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:369:5: error: no type named '__type' in 'struct __gnu_cxx::__enable_if<false, double>'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:361:3: note: candidate: constexpr long double std::log(long double)
+   log(long double __x)
+   ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:361:3: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'long double'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:357:3: note: candidate: constexpr float std::log(float)
+   log(float __x)
+   ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/cmath:357:3: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'float'
+make: *** [src/LogisticNormal.o] Error 1
+15:21:31 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:239:76: error: invalid use of void expression
+   score = 0.5 * N_years * (N_ages - 1) * log(2 * PI) + Sum_mat(log_mat(obs)) + 0.5 * N_years * log(det_fast(inv_Vmat));
+                                                                            ^
+make: *** [src/LogisticNormal.o] Error 1
+15:21:58 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:239:44: error: invalid use of void expression
+   double tot_log_obs = Sum_mat(log_mat(obs));
+                                            ^
+make: *** [src/LogisticNormal.o] Error 1
+15:22:43 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:23:26 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:24:59 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:29:25 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:30:54 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:31:31 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:32:28 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:39:34 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:46:07 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:53:48 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+15:57:21 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+16:23:39 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+16:35:23 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:223:46: error: invalid initialization of reference of type 'std::vector<std::vector<double> >&' from expression of type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}'
+       temp1 = mat_multiply(ww[year], V_invert);
+                                              ^
+../src/LogisticNormal.cpp:60:25: note: in passing argument 1 of 'std::vector<std::vector<double> > mat_multiply(std::vector<std::vector<double> >&, std::vector<std::vector<double> >&)'
+ vector<vector<double> > mat_multiply(vector<vector<double> >& x,vector<vector<double> >& y);
+                         ^
+make: *** [src/LogisticNormal.o] Error 1
+16:43:01 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+16:50:41 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:229:5: error: expected primary-expression before '}' token
+     }
+     ^
+../src/LogisticNormal.cpp: At global scope:
+../src/LogisticNormal.cpp:608:4: error: expected unqualified-id before 'return'
+    return result;
+    ^
+../src/LogisticNormal.cpp:609:1: error: expected declaration before '}' token
+ }
+ ^
+make: *** [src/LogisticNormal.o] Error 1
+16:51:12 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:229:5: error: expected primary-expression before '}' token
+     }
+     ^
+../src/LogisticNormal.cpp: In function 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)':
+../src/LogisticNormal.cpp:633:25: error: redefinition of 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)'
+ vector<vector<double> > t(vector<vector<double> >& x) {
+                         ^
+../src/LogisticNormal.cpp:622:25: note: 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)' previously defined here
+ vector<vector<double> > t(vector<vector<double> >& x) {
+                         ^
+make: *** [src/LogisticNormal.o] Error 1
+16:53:06 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:229:12: error: no match for 'operator<<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'std::vector<std::vector<double> >')
+       cout << temp2 << " ";
+            ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'std::ios_base& (*)(std::ios_base&)'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'long int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'long unsigned int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'bool'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:638:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'short int'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'short unsigned int'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:638:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'int'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'unsigned int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'long long int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'long long unsigned int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'double'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'float'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'long double'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'const void*'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:638:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from 'std::vector<std::vector<double> >' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/string:52:0,
+                 from ../src/LogisticNormal.cpp:2:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_string.h:5167:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_string.h:5167:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ios_base.h:46:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ios:42,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:38,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/system_error:209:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'const std::error_code&'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   deduced conflicting types for parameter '_CharT' ('char' and 'std::vector<std::vector<double> >')
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'char'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'char'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'signed char'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'unsigned char'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   mismatched types 'const _CharT*' and 'std::vector<std::vector<double> >'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:638:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'const char*'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'const char*'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'const signed char*'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'const unsigned char*'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = std::vector<std::vector<double> >] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../src/LogisticNormal.cpp:229:15: error: cannot bind 'std::ostream {aka std::basic_ostream<char>}' lvalue to 'std::basic_ostream<char>&&'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:49:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.h:1276:5: note: candidate: template<class _RandomNumberEngine, long long unsigned int __w, class _UIntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.h:1276:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:477:5: note: candidate: template<class _UIntType1, long long unsigned int __w1, long long unsigned int __n1, long long unsigned int __m1, long long unsigned int __r1, _UIntType1 __a1, long long unsigned int __u1, _UIntType1 __d1, long long unsigned int __s1, _UIntType1 __b1, long long unsigned int __t1, _UIntType1 __c1, long long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:477:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1029:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_int_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1029:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::uniform_int_distribution<_IntType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1088:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_real_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1088:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::uniform_real_distribution<_IntType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2275:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::cauchy_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2275:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::cauchy_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1150:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bernoulli_distribution&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1150:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   cannot convert 'temp2' (type 'std::vector<std::vector<double> >') to type 'const std::bernoulli_distribution&'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2050:5: note: candidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::normal_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2050:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::normal_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1232:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::geometric_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1232:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::geometric_distribution<_IntType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2596:5: note: candidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::gamma_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2596:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::gamma_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1883:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::exponential_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1883:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::exponential_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2674:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::weibull_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2674:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::weibull_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2750:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::extreme_value_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2750:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::extreme_value_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:156:5: note: candidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:156:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::linear_congruential_engine<_UIntType, __a, __c, __m>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:632:5: note: candidate: template<class _UIntType, long long unsigned int __w, long long unsigned int __s, long long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:632:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:702:5: note: candidate: template<class _RandomNumberEngine, long long unsigned int __p, long long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:702:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::discard_block_engine<_RandomNumberEngine, __p, __r>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:831:5: note: candidate: template<class _RandomNumberEngine, long long unsigned int __k, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:831:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::shuffle_order_engine<_RandomNumberEngine, __k>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1347:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::negative_binomial_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1347:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::negative_binomial_distribution<_IntType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1552:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::poisson_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1552:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::poisson_distribution<_IntType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1819:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::binomial_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1819:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::binomial_distribution<_IntType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2115:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::lognormal_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2115:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::lognormal_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2188:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::chi_squared_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2188:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::chi_squared_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2352:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::fisher_f_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2352:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::fisher_f_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2427:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::student_t_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2427:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::student_t_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2886:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discrete_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2886:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::discrete_distribution<_IntType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:3096:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_constant_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:3096:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::piecewise_constant_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:3312:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_linear_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:3312:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::piecewise_linear_distribution<_RealType>'
+       cout << temp2 << " ";
+               ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/memory:82:0,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/fwd.hpp:18,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/detail/config.hpp:299,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/exception.hpp:19,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:25,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr.h:66:5: note: candidate: template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)
+     operator<<(std::basic_ostream<_Ch, _Tr>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr.h:66:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::__shared_ptr<_Tp, _Lp>'
+       cout << temp2 << " ";
+               ^
+In file included from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/traits.hpp:17:0,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:26,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/complex:526:5: note: candidate: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/complex:526:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:15: note:   'std::vector<std::vector<double> >' is not derived from 'const std::complex<_Tp>'
+       cout << temp2 << " ";
+               ^
+../src/LogisticNormal.cpp: In function 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)':
+../src/LogisticNormal.cpp:634:25: error: redefinition of 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)'
+ vector<vector<double> > t(vector<vector<double> >& x) {
+                         ^
+../src/LogisticNormal.cpp:623:25: note: 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)' previously defined here
+ vector<vector<double> > t(vector<vector<double> >& x) {
+                         ^
+make: *** [src/LogisticNormal.o] Error 1
+16:53:21 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)':
+../src/LogisticNormal.cpp:635:25: error: redefinition of 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)'
+ vector<vector<double> > t(vector<vector<double> >& x) {
+                         ^
+../src/LogisticNormal.cpp:624:25: note: 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)' previously defined here
+ vector<vector<double> > t(vector<vector<double> >& x) {
+                         ^
+make: *** [src/LogisticNormal.o] Error 1
+16:54:33 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)':
+../src/LogisticNormal.cpp:634:25: error: redefinition of 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)'
+ vector<vector<double> > t(vector<vector<double> >& x) {
+                         ^
+../src/LogisticNormal.cpp:623:25: note: 'std::vector<std::vector<double> > t(std::vector<std::vector<double> >&)' previously defined here
+ vector<vector<double> > t(vector<vector<double> >& x) {
+                         ^
+make: *** [src/LogisticNormal.o] Error 1
+16:55:13 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+16:57:29 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+16:58:54 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:00:38 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:247:128: error: a function-definition is not allowed here before '{' token
+ vector<double> rlogistnorm(vector<double> expprop, double sigma, vector<double> phi, vector<vector<double>> covmat, bool ARMA) {
+                                                                                                                                ^
+../src/LogisticNormal.cpp:255:133: error: a function-definition is not allowed here before '{' token
+ vector<vector<double> > covmat_logistnorm(double sigma, vector<double> phi,unsigned N_ages , bool sepbysex, bool sexlag, bool ARMA) {
+                                                                                                                                     ^
+../src/LogisticNormal.cpp:700:1: error: expected '}' at end of input
+ }
+ ^
+make: *** [src/LogisticNormal.o] Error 1
+17:00:49 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:02:27 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:03:49 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+../src/LogisticNormal.cpp: In function 'double NLLlogistnorm(std::vector<std::vector<double> >, std::vector<std::vector<double> >, std::vector<double>, double, std::vector<double>, bool, bool, bool, bool)':
+../src/LogisticNormal.cpp:229:14: error: no match for 'operator<<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}')
+         cout <<  ww[year] << " ";
+              ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:108:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:117:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:127:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'std::ios_base& (*)(std::ios_base&)'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:166:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'long int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:170:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'long unsigned int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:174:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'bool'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:638:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:91:5: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'short int'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:181:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'short unsigned int'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:638:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:105:5: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'int'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:192:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'unsigned int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:201:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'long long int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:205:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'long long unsigned int'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:220:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'double'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:224:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'float'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:232:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'long double'
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:245:7: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'const void*'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:638:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:119:5: note:   no known conversion for argument 1 from '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/string:52:0,
+                 from ../src/LogisticNormal.cpp:2:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_string.h:5167:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/basic_string.h:5167:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ios_base.h:46:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ios:42,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:38,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/system_error:209:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'const std::error_code&'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:497:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   deduced conflicting types for parameter '_CharT' ('char' and 'std::vector<double>')
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:502:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'char'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:508:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'char'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:514:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'signed char'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:519:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'unsigned char'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:539:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   mismatched types 'const _CharT*' and 'std::vector<double>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:638:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'const char*'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:556:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'const char*'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:569:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'const signed char*'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:574:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'const unsigned char*'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/iostream:39:0,
+                 from ../src/LogisticNormal.cpp:3:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = std::vector<double>] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../src/LogisticNormal.cpp:229:25: error: cannot bind 'std::ostream {aka std::basic_ostream<char>}' lvalue to 'std::basic_ostream<char>&&'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:49:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.h:1276:5: note: candidate: template<class _RandomNumberEngine, long long unsigned int __w, class _UIntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.h:1276:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::independent_bits_engine<_RandomNumberEngine, __w, _UIntType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:477:5: note: candidate: template<class _UIntType1, long long unsigned int __w1, long long unsigned int __n1, long long unsigned int __m1, long long unsigned int __r1, _UIntType1 __a1, long long unsigned int __u1, _UIntType1 __d1, long long unsigned int __s1, _UIntType1 __b1, long long unsigned int __t1, _UIntType1 __c1, long long unsigned int __l1, _UIntType1 __f1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:477:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::mersenne_twister_engine<_UIntType, __w, __n, __m, __r, __a, __u, __d, __s, __b, __t, __c, __l, __f>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1029:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_int_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1029:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::uniform_int_distribution<_IntType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1088:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::uniform_real_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1088:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::uniform_real_distribution<_IntType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2275:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::cauchy_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2275:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::cauchy_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1150:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bernoulli_distribution&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1150:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   cannot convert 'ww.std::vector<_Tp, _Alloc>::operator[]<std::vector<double>, std::allocator<std::vector<double> > >(((std::vector<std::vector<double> >::size_type)year))' (type '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}') to type 'const std::bernoulli_distribution&'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2050:5: note: candidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::normal_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2050:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::normal_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1232:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::geometric_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1232:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::geometric_distribution<_IntType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2596:5: note: candidate: template<class _RealType1, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::gamma_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2596:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::gamma_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1883:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::exponential_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1883:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::exponential_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2674:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::weibull_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2674:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::weibull_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2750:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::extreme_value_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2750:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::extreme_value_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:156:5: note: candidate: template<class _UIntType, _UIntType __a, _UIntType __c, _UIntType __m, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::linear_congruential_engine<_UIntType, __a, __c, __m>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:156:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::linear_congruential_engine<_UIntType, __a, __c, __m>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:632:5: note: candidate: template<class _UIntType, long long unsigned int __w, long long unsigned int __s, long long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:632:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::subtract_with_carry_engine<_UIntType, __w, __s, __r>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:702:5: note: candidate: template<class _RandomNumberEngine, long long unsigned int __p, long long unsigned int __r, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discard_block_engine<_RandomNumberEngine, __p, __r>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:702:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::discard_block_engine<_RandomNumberEngine, __p, __r>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:831:5: note: candidate: template<class _RandomNumberEngine, long long unsigned int __k, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::shuffle_order_engine<_RandomNumberEngine, __k>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:831:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::shuffle_order_engine<_RandomNumberEngine, __k>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1347:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::negative_binomial_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1347:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::negative_binomial_distribution<_IntType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1552:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::poisson_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1552:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::poisson_distribution<_IntType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1819:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::binomial_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:1819:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::binomial_distribution<_IntType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2115:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::lognormal_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2115:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::lognormal_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2188:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::chi_squared_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2188:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::chi_squared_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2352:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::fisher_f_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2352:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::fisher_f_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2427:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::student_t_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2427:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::student_t_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2886:5: note: candidate: template<class _IntType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::discrete_distribution<_IntType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:2886:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::discrete_distribution<_IntType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:3096:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_constant_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:3096:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::piecewise_constant_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/random:51:0,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/stl_algo.h:66,
+                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/algorithm:62,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:16,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:3312:5: note: candidate: template<class _RealType, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::piecewise_linear_distribution<_RealType>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/random.tcc:3312:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::piecewise_linear_distribution<_RealType>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/memory:82:0,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/fwd.hpp:18,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/detail/config.hpp:299,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/exception.hpp:19,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:25,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr.h:66:5: note: candidate: template<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)
+     operator<<(std::basic_ostream<_Ch, _Tr>& __os,
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/bits/shared_ptr.h:66:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::__shared_ptr<_Tp, _Lp>'
+         cout <<  ww[year] << " ";
+                         ^
+In file included from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/traits.hpp:17:0,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/storage.hpp:26,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/vector.hpp:21,
+                 from C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\matrix.hpp:18,
+                 from ../src/LogisticNormal.cpp:10:
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/complex:526:5: note: candidate: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+     ^
+C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/complex:526:5: note:   template argument deduction/substitution failed:
+../src/LogisticNormal.cpp:229:25: note:   '__gnu_cxx::__alloc_traits<std::allocator<std::vector<double> > >::value_type {aka std::vector<double>}' is not derived from 'const std::complex<_Tp>'
+         cout <<  ww[year] << " ";
+                         ^
+make: *** [src/LogisticNormal.o] Error 1
+17:04:06 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:04:51 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Command canceled
+17:05:11 **** Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:06:25 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:08:01 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:10:08 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:12:20 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Command canceled
+17:13:04 **** Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:14:57 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:15:29 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:16:14 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:18:23 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:22:22 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:25:50 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:27:38 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:32:45 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:35:25 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:42:11 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 
+17:45:00 **** Incremental Build of configuration Debug for project LogisticNormal ****
+make all 
+Building file: ../src/LogisticNormal.cpp
+Invoking: Cross G++ Compiler
+g++ -std=c++0x -I"C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0" -I"C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen" -O0 -g3 -c -fmessage-length=0  -std=c++11 -MMD -MP -MF"src/LogisticNormal.d" -MT"src/LogisticNormal.o" -o "src/LogisticNormal.o" "../src/LogisticNormal.cpp"
+Finished building: ../src/LogisticNormal.cpp
+ 
+Building target: LogisticNormal
+Invoking: Cross G++ Linker
+g++  -o "LogisticNormal"  ./src/LogisticNormal.o   
+Finished building target: LogisticNormal
+ 

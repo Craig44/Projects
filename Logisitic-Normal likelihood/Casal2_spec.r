@@ -20,11 +20,11 @@ casal_fits  = extract.fits(path = DIR$'HAK1_csl', file = "out.log");
 compdat = casal_fits$subaTANageDEC
 ## restructure for Chris's Code
 compdat$obs =  as.matrix(casal_fits$subaTANageDEC$obs)
-compdat$exp =  as.matrix(casal_fits$subaTANageDEC$fits)
+compdat$exp =  round(as.matrix(casal_fits$subaTANageDEC$fits),5)
 compdat$N = casal_fits$subaTANageDEC$error.value[,1]
 
 
-sigma = 0.2
+sigma = 0.4
 phi=0.2;
 covmat=NULL;
 sepbysex=F;
@@ -32,7 +32,7 @@ sexlag=F;
 robust=F;
 ARMA=F
 
-NLLlogistnorm(compdat,sigma = 0.2,phi=0,covmat=NULL,sepbysex=F, sexlag=F, robust=F, ARMA=F)
+NLLlogistnorm(compdat,sigma = 0.4,phi,covmat=NULL,sepbysex=F, sexlag=F, robust=F, ARMA=F)
 
 
 ## For converting R code to C++
