@@ -455,6 +455,91 @@ src/LogisticNormal.o: ../src/LogisticNormal.cpp \
  C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/matrix.hpp \
  C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\io.hpp \
  C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\storage.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\random.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/additive_combine.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/cstdint.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/config.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/operators.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/seed.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/linear_congruential.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/limits.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer/static_log2.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer_fwd.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/const_mod.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer_traits.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/large_arithmetic.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/integer_log2.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/pending/integer_log2.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer/integer_log2.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/disable_warnings.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/enable_warnings.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/seed_impl.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer/integer_mask.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/signed_unsigned_tools.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/generator_bits.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/discard_block.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/independent_bits.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/inversive_congruential.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/lagged_fibonacci.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_01.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/ptr_helper.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/generator_seed_seq.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/linear_feedback_shift.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/mersenne_twister.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/polynomial.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/ranlux.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/subtract_with_carry.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/shuffle_order.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/shuffle_output.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/taus88.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/xor_combine.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/generate_canonical.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/seed_seq.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/begin.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/config.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/iterator.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/range_fwd.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/mutable_iterator.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/extract_optional_type.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/iterator/iterator_traits.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/msvc_has_iterator_workaround.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/const_iterator.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/end.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/implementation_help.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/common.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/sfinae.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/random_number_generator.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_int_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/uniform_int_float.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/variate_generator.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/bernoulli_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/binomial_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/cauchy_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/chi_squared_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/gamma_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/exponential_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/discrete_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/vector_io.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/extreme_value_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/fisher_f_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/geometric_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/lognormal_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/normal_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/negative_binomial_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/poisson_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/non_central_chi_squared_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_real_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/piecewise_constant_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_real.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/piecewise_linear_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/student_t_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/triangle_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_int.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_on_sphere.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_smallint.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/weibull_distribution.hpp \
+ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\random\normal_distribution.hpp \
  C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen/Eigen/Dense \
  C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen/Eigen/Core \
  C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -1522,6 +1607,176 @@ C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/numeric/ublas/matrix.
 C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\io.hpp:
 
 C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\numeric\ublas\storage.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\random.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/additive_combine.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/cstdint.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/config.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/operators.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/seed.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/linear_congruential.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/limits.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer/static_log2.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer_fwd.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/const_mod.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer_traits.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/large_arithmetic.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/integer_log2.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/pending/integer_log2.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer/integer_log2.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/disable_warnings.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/enable_warnings.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/seed_impl.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/integer/integer_mask.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/signed_unsigned_tools.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/generator_bits.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/discard_block.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/independent_bits.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/inversive_congruential.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/lagged_fibonacci.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_01.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/ptr_helper.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/generator_seed_seq.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/linear_feedback_shift.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/mersenne_twister.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/polynomial.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/ranlux.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/subtract_with_carry.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/shuffle_order.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/shuffle_output.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/taus88.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/xor_combine.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/generate_canonical.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/seed_seq.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/begin.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/config.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/iterator.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/range_fwd.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/mutable_iterator.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/extract_optional_type.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/iterator/iterator_traits.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/msvc_has_iterator_workaround.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/const_iterator.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/end.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/implementation_help.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/common.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/range/detail/sfinae.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/random_number_generator.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_int_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/uniform_int_float.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/variate_generator.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/bernoulli_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/binomial_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/cauchy_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/chi_squared_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/gamma_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/exponential_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/discrete_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/detail/vector_io.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/extreme_value_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/fisher_f_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/geometric_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/lognormal_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/normal_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/negative_binomial_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/poisson_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/non_central_chi_squared_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_real_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/piecewise_constant_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_real.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/piecewise_linear_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/student_t_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/triangle_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_int.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_on_sphere.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/uniform_smallint.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost/random/weibull_distribution.hpp:
+
+C:\Craig\Models\CASAL2\ThirdParty\boost\boost_1_58_0/boost\random\normal_distribution.hpp:
 
 C:\Craig\projects\2016\DEE2015-02(TrawlSurveySimulation)\Logistic_normal\Libraries\Eigen/Eigen/Dense:
 

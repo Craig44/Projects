@@ -1,5 +1,6 @@
 NLLlogistnorm <-
-function(compdat,sigma,phi=0,covmat=NULL,sepbysex=F, sexlag=F, robust=F, ARMA=F)
+function(compdat,sigma,phi=0,covmat=NULL,sepbysex=F,
+           sexlag=F,robust=F,ARMA=F)
   ## Given observed and expected composition data (single- or
   ## multi-year) that have a logistic-normal distribution, this
   ## function calculates and returns the negative log-likelihood of
@@ -49,34 +50,27 @@ function(compdat,sigma,phi=0,covmat=NULL,sepbysex=F, sexlag=F, robust=F, ARMA=F)
   Nbin <- ncol(obsmat)
   Nyear <- nrow(obsmat)
   if(is.in('N',names(compdat))){
-    if(length(compdat$N)!=Nyear) {
-      stop('Wrong length for compdat$N')
-    }
+    if(length(compdat$N)!=Nyear)stop('Wrong length for compdat$N')
     wts <- sqrt(mean(compdat$N)/compdat$N)
-  } else {
-    wts <- rep(1,Nyear)
   }
-  
-  if(length(wts)==1) {
-    wts <- rep(1,Nyear)
-  }
+  else wts <- rep(1,Nyear)
+  if(length(wts)==1)wts <- rep(1,Nyear)
   expmat <- compdat$exp
   if(!is.matrix(expmat)){
     if(length(expmat)!=Nbin)stop('Wrong size for compdat$exp')
     expmat <- matrix(rep(expmat,Nyear),Nyear,byrow=T,
                      dimnames=list(NULL,names(expmat)))
-  } else if(!all(dim(expmat)==dim(obsmat))) {
-    stop('Wrong size for compdat$exp')
   }
+  else if(!all(dim(expmat)==dim(obsmat)))stop('Wrong size for compdat$exp')
   if(is.null(covmat))
-    covmat <- covmat.logistnorm(sigma,phi,colnames(obsmat),sepbysex,sexlag, ARMA)
+    covmat <- covmat.logistnorm(sigma,phi,colnames(obsmat),sepbysex,sexlag,
+                                ARMA)
   Kmat <- cbind(diag(Nbin-1),-1)
   Vmat <- Kmat %*% (covmat %*% t(Kmat))
   Vinv <- solve(Vmat)
-  negloglik <- 0.5 * Nyear * (Nbin-1) * log(2*pi) + sum(log(obsmat)) + 0.5 * Nyear * log(det(Vmat))
-  if(!all(wts==1)) {
-    negloglik <- negloglik + (Nbin-1)*sum(log(wts))
-  }
+  negloglik <- 0.5*Nyear*(Nbin-1)*log(2*pi)+sum(log(obsmat))+
+    0.5*Nyear*log(det(Vmat))
+  if(!all(wts==1))negloglik <- negloglik + (Nbin-1)*sum(log(wts))
   ww <- log(sweep(obsmat[,-Nbin,drop=F],1,obsmat[,Nbin],'/'))-
     log(sweep(expmat[,-Nbin,drop=F],1,expmat[,Nbin],'/'))
   Vinvdiag <- diag(Vinv)
@@ -87,20 +81,18 @@ function(compdat,sigma,phi=0,covmat=NULL,sepbysex=F, sexlag=F, robust=F, ARMA=F)
       ##            negloglik <- negloglik-(0.5/(wts[i]^2))*
       ##                sum(log(exp(-uu*ww[i,])+0.01))
       ## modified robustification
-      tmp <- (ww[i,]^2) * Vinvdiag
-      negloglik <- negloglik+(0.5/(wts[i]^2))* ((ww[i,] %*% Vinv) %*% ww[i,] - sum(tmp) - sum(log(exp(-tmp)+0.01)))
-
-    } else {
-    print(Paste(negloglik, "\n"))
-    negloglik <- negloglik + (0.5/(wts[i]^2)) * (ww[i,] %*% Vinv) %*% ww[i,]
-          print(Paste(" temp1 " ,(0.5/(wts[i]^2)) , " temp2 " ,(ww[i,] %*% Vinv) %*% ww[i,], " score = " , negloglik))
-        }
+      tmp <- (ww[i,]^2)*Vinvdiag
+      negloglik <- negloglik+(0.5/(wts[i]^2))*
+        ((ww[i,] %*% Vinv) %*% ww[i,] - sum(tmp) -
+         sum(log(exp(-tmp)+0.01)))
+    }
+    else negloglik <- negloglik+(0.5/(wts[i]^2))*
+      (ww[i,] %*% Vinv) %*% ww[i,]
   }
   return(as.vector(negloglik))
 }
-
-
-rlogistnorm <- function(n,expprop,sigma,phi=0,covmat=NULL,ARMA=F)
+rlogistnorm <-
+function(n,expprop,sigma,phi=0,covmat=NULL,ARMA=F)
     ## Generates n random vectors - in a k x n matrix - from a
     ## logistic-normal distribution with parameters (expprop,sigma,phi) or
     ## (expprop,covmat).
@@ -160,8 +152,6 @@ rlogistnorm <- function(n,expprop,sigma,phi=0,covmat=NULL,ARMA=F)
 }
 covmat.logistnorm <-
 function (sigma,phi,binnam,sepbysex=F,sexlag=F,ARMA=F)
-
-
     ## Constructs the covariance matrix of the multivariate normal variate X
     ## from which a logistic-normal variate O is created using the
     ## transformation Ob = exp(Xb)/sumc(exp(Xc)).
@@ -181,34 +171,27 @@ function (sigma,phi,binnam,sepbysex=F,sexlag=F,ARMA=F)
     ##          phi[1] and phi[2] are the AR and MA parameters, respectively
     ##
 {
-    getrho <- function(phi,kk,ARMA) {
-        if(length(phi)==1) {
-          phi^(1:(kk-1)) 
-        } else if(ARMA) {
-          ARMAacf(ar=phi[1],ma=phi[2],lag.max=kk)[-1]
-        } else 
-          ARMAacf(ar=phi,lag.max=kk)[-1]
-    }    
+    getrho <- function(phi,kk,ARMA)if(length(phi)==1)
+        phi^(1:(kk-1)) else if(ARMA)ARMAacf(ar=phi[1],ma=phi[2],lag.max=kk)[-1]
+        else ARMAacf(ar=phi,lag.max=kk)[-1]
     Nbin <- length(binnam)
-    if(length(sigma)==1) 
-      sigma <- rep(sigma,Nbin)
-    if(length(sigma)!=Nbin)
-      stop('Wrong length for argument sigma')
-    if(!is.in(length(phi),1:2))
-      stop('Wrong length for phi')
-    if(length(phi)== 2 & !ARMA){
+    if(length(sigma)==1)sigma <- rep(sigma,Nbin)
+    if(length(sigma)!=Nbin)stop('Wrong length for argument sigma')
+    if(!is.in(length(phi),1:2))stop('Wrong length for phi')
+    if(length(phi)==2 & !ARMA){
         if(phi[2]<=(-1) | phi[2]>=(1-abs(phi[1])))
             stop('Invalid value for phi')
     }
     if(all(phi==0)){
         covmat <- diag(sigma^2)
-    } else { 
+    }
+    else{
         sexed <- !is.in(substring(binnam[1],1,1),c('X',paste(0:9)))
         if(sexed & sepbysex){
             covmat <- diag(Nbin)
             sexlab <- substring(binnam,1,1)
             for(sx in unique(sexlab)){
-                sel <- sexlab == sx
+                sel <- sexlab==sx
                 ik <- sum(sel)
                 rhovec <- getrho(phi,ik,ARMA)
                 subcov <- diag(ik)

@@ -3,7 +3,7 @@
 ## date 11/10/09
 Acf = c(0.4,0.2)
 Acf = c(0.5,0.6)
-Acf = c(0.2,0.43)
+Acf = c(0.5,0.4)
 nBin = 16
 xx = rep(0.0, nBin)
 

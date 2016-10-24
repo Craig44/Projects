@@ -92,9 +92,67 @@ compdat$N = casal_fits$Tangaroa_propn_at_age_Jan$error.value[,1]
 sigma = 0.243
 phi= c(0.235,-0.284);
 sepbysex=T
-NLLlogistnorm(compdat,sigma ,phi,covmat=NULL,sepbysex=T, sexlag=F, robust=F, ARMA=F)
+robust = F
+ARMA=T
+sepbysex=T
+NLLlogistnorm(compdat,sigma ,phi,covmat=NULL,sepbysex, sexlag=F, robust, ARMA)
+
 ## C++ answer
-## 936.652
+## -2416.6
+#########
+## Test 7
+#########
+## Sexed data, sepsex = T
+sigma = 0.243
+phi= c(0.235,-0.284);
+sepbysex=T
+robust = F
+ARMA=T
+sepbysex=F
+sexlag=T
+NLLlogistnorm(compdat,sigma ,phi,covmat=NULL,sepbysex, sexlag, robust, ARMA)
+## C++ answer
+## -2428.48
+
+## now just check that the robustification works with the sexes as well
+#########
+## Test 8
+#########
+## Sexed data, sepsex = T
+sepbysex=T
+robust = T
+ARMA=T
+sepbysex=T
+NLLlogistnorm(compdat,sigma ,phi,covmat=NULL,sepbysex, sexlag=F, robust, ARMA)
+## C++ answer
+## -4926.83
+
+#########
+## Test 9
+#########
+sepbysex=T
+robust = T
+ARMA=T
+sepbysex=F
+sexlag=T
+NLLlogistnorm(compdat,sigma ,phi,covmat=NULL,sepbysex, sexlag, robust, ARMA)
+## C++ answer
+## -4933.73
+
+## Now think about implementing this in Casal2, the algorithm.
+## 
+## DoReset()
+## Calculate the covar matrix
+## do the inversions
+
+## add a null 2d matrix on the comparisons for a covariace matrix.
+## in the likelihood
+## Calculate score()
 
 
 
+###############################################################
+##### Now test for the simulating component of the likelihood
+###############################################################
+
+rlogistnorm
